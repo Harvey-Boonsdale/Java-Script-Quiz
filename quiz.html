@@ -10,30 +10,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="block1">
-            <h2>Question Number</h2>
+        <div class="header">
+            <p id="questionNumber">Question Number</p>
+            <p id="questionText">Question Text</p>
         </div>
-        <div class="block2">
-            <h3>Question Text</h3>
-        </div>
-        <div class="option">
-            <input type="radio" id="option1" name="option" value="1">
-            <label for="1">Option 1</label>
-        </div>
-        <div class="option">
-            <input type="radio" id="option2" name="option" value="2">
-            <label for="2">Option 2</label>
-        </div>
-        <div class="option">
-            <input type="radio" id="option3" name="option" value="3">
-            <label for="3">Option 2</label>
-        </div>
-        <div class="option">
-            <input type="radio" id="option4" name="option" value="4">
-            <label for="4">Option 2</label>
-        </div>
-
-        <button class="button" id="submit">Submit</button>
+            <form>
+                <div class="option">
+                    <input type="radio" id="option1" name="option1">
+                    <label for="option1"></label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option2" name="option2">
+                    <label for="option2"></label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option3" name="option3">
+                    <label for="option3"></label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="option4" name="option4">
+                    <label for="option4"></label>
+                </div>
+        
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        
     </div> 
 </body>
 </html>
